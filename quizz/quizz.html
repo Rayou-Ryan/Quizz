@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quizz Informatique</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quizz</h1>
+    <div id="quiz-container">
+      <p id="question-text"></p>
+      <div id="answers"></div>
+      <button id="next-btn" disabled>Suivant</button>
+    </div>
+    <p id="progress"></p>
+  </div>
+
+  <div id="score-table-container">
+    <h2>Tableau des scores</h2>
+    <table id="score-table">
+      <thead>
+        <tr>
+          <th>Question</th>
+          <th>Réponse</th>
+          <th>Correcte</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
